@@ -24,16 +24,20 @@ body {
     list-style: none;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(max(200px, 30%), 1fr));
-    grid-gap: 1rem;
+    grid-gap: 1.5rem;
 }
 
 .gallery-items li {
     height: 100%;
-    background-color: #00b8ff14;
+    background-color: #56595a14;
+    box-shadow: 0rem 0rem 0.8rem 0rem #645f5f;
+    border-radius: 0.5rem;
+    transition: 0.2s linear translate;
 }
 
 .gallery-items li:hover {
-    background-color: #00b8ff4d;
+    background-color: #121e34;
+    translate: 0 -0.3rem;
 }
 
 .gallery-items a {
